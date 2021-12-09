@@ -1,0 +1,21 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    border: 1px solid black;
+}
+
+.container div:nth-child(even) {
+    padding: 16px;
+    background-color: white;
+}
+.container div:nth-child(odd) {
+    padding: 16px;
+    background-color: red;
+}
+.image {
+    width: 305px;
+    background-image: url("img/stars.jpeg");
+    position: absolute;
+}
