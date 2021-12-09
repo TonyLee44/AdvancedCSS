@@ -1,0 +1,43 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 15em;
+  }
+
+  h1 {
+    background-color: rgb(182, 28, 28);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  h6 {
+      margin-top: 0;
+      margin-bottom: auto;
+      padding: 10px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: auto;
+    padding: 10px;
+    font-size: medium;
+}
+  
+  div {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  img {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width:100%; 
+    height:70%;
+  }
+  
+ .product{
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin: 0;
+  }
